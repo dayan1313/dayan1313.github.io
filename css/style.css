@@ -39,7 +39,7 @@ h1 {
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 28px;
+	font-size: 50px;
 	margin-bottom: 15px;
 }
 h3 {
@@ -61,16 +61,16 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #339BEB;
+	color: #FFA500;
 }
 .text-colored {
-	color: #55acee;
+	color: #FFA500;
 }
 a {
-	color: #55acee;
+	color: #FFA500;
 }
 a:hover {
-	color: #339BEB;
+	color: #FFA500;
 }
 a:focus,
 a:active {
@@ -115,7 +115,7 @@ blockquote {
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
-	color: #ffffff;
+	color: #FFA500;
 	background-color: rgba(0, 0, 0, 0.10);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -129,7 +129,7 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	color: #fff;
+	color: #FFA500;
 }
 .banner-image {
 	vertical-align: middle;
@@ -152,7 +152,7 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #fafafa;
+	background-color: #FFA500;
 	border-top: 1px solid #f3f3f3;
 	border-bottom: 1px solid #f3f3f3;
 	padding: 40px 0;
@@ -165,11 +165,11 @@ blockquote {
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: #222222;
+	background-color: #FFA500;
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #55acee;
+	background-color: #000000;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -226,7 +226,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: #FFA500;
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -286,7 +286,7 @@ blockquote {
 	color: #ffffff;
 }
 .banner-caption h1 {
-	font-size: 60px;
+	font-size: 120px;
 }
 .subfooter p {
 	margin-bottom: 0;
@@ -311,12 +311,12 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #55acee;
+	color: #FFA500;
 	border: 1px solid #cccccc;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
+	background-color: #FFA500;
 	border-color: #339BEB;
 }
 
@@ -348,7 +348,7 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #55acee;
+	background-color: #FFA500;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
@@ -373,7 +373,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #55acee;
+	background-color: #FFA500;
 	color: #ffffff;
 }
 .panel-title a i {
@@ -387,15 +387,15 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #55acee;
-	border-color: #55acee;
-	color: #ffffff;
+	background-color: #FFA500;
+	border-color: #FFA500;
+	color: #FFFFFF;
 }
 .nav-pills > li > a {
 	border-radius: 0;
 	padding: 8px 20px;
 	border: 1px solid #cacaca;
-	color: #666666;
+	color: #FFA500;
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -476,11 +476,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #55acee;
+	color: #fff;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #55acee;
+	color: #fff;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -511,7 +511,7 @@ textarea {
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: rgba(0, 0, 0, 0.95);
+	background-color: #FFA500;
 	padding: 5px 0;
 }
 .fixed-header-on .site-name {
